@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+}
+* {
+  font-family: "Patrick Hand";
+}
+.HomeTitle {
+  color: #648DAD;
+}
+h1 {
+  text-align: center;
+}
+img {
+  text-align: center;
+}
+
+nav {
+  background-color: green;  
+  border-radius: 3px;
+}
+
+button {
+  background-color: #648DAD;
+  padding: 15px
+  border: none;
+  border-radius: 3px;
+}
+
+button:hover {
+  transform: scale(1.5);
+  z-index: 102;
+  transition 0.5s;
+  color: purple;
+}
